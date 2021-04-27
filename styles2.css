@@ -1,0 +1,36 @@
+body {
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(118.28deg, #081A3A 12.6%, #42428B 67.49%);
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.listen-now {
+  background: linear-gradient(180deg, #D688A0 0%, rgba(214, 136, 160, 0.47) 100%);
+  border-radius: 30px;
+  color: white;
+  border: none;
+  font-size: 25px;
+
+  padding: 0.5rem 3rem;
+}
+.listen-now:hover {
+  background-color: #E18CA2;
+  transition: 0.5s;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+a {
+  color: #E18CA2;
+}
